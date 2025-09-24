@@ -5,7 +5,7 @@ import 'package:flutter/material.dart';
 import 'thispage.dart';
 
 void main() async {
-  String jsonurl = "https://sundarampal.github.io/myjsonfiles/frontpage.json";
+  String jsonurl = "https://sundarampal.github.io/myjsonfiles/subjectquizpage.json";
 
   await Thispage.fetchjson(jsonurl);
   runApp(MyApp());
